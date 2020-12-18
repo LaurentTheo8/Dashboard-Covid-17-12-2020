@@ -1,21 +1,21 @@
 # Dashboard-Covid-17-12-2020
 
 Voici mon projet pour le cours de BI. 
-Il s'agit d'un dashboard présentant quelques chiffres sur le Covid-19 lors de ce dernier mois (dates: 17/11/2020 au 17/12/2020).
+Il s'agit d'un dashboard présentant quelques chiffres sur le Covid-19 lors de ce dernier mois ( dates : 17/11/2020 au 17/12/2020 ).
 
 **Lien** : https://datastudio.google.com/reporting/e3d4e5c7-4acc-4e73-8eab-eb98a54c220b
 
 Il est composé de deux pages : 
 
-* **Global** : Page sur laquelle on retrouvera les informations globales, du monde, liées au Covid (nombre de décès, chiffres mondiaux, Map monde, évolution des chiffres lors du dernier mois ..). Il y a un filtre pour comparer les données sur certains pays en particulier (initalisé au monde entier).
+* **Global** : Page sur laquelle on retrouvera les informations globales, du monde, liées au Covid ( nombre de décès, chiffres mondiaux, Map monde, évolution des chiffres lors du dernier mois ... ). Il y a un filtre pour comparer les données sur certains pays en particulier (initalisé au monde entier ).
 
-* **Compartif** : Page sur laquelle on pourra comparer les pays entre eux avec des graphiques Bar (nombre max de pays à comparer fixé à 20). Le filtre permet de sélectionner les pays qu'on veut comparer entre eux. (initalisé à 8 : États-Unis Inde France Russie Allemagne Belgique Chine Japon).
+* **Compartif** : Page sur laquelle on pourra comparer les pays entre eux avec des graphiques Bar (nombre max de pays à comparer fixé à 20). Le filtre permet de sélectionner les pays qu'on veut comparer entre eux ( initalisé à 8 : États-Unis Inde France Russie Allemagne Belgique Chine Japon ).
 
 ## Source de données
 
 J'ai choisis une base de données sur le Covid-19, un sujet d'actualité et accessible. 
 
-La source de données est un .csv récupérable à cette adresse : https://coronavirus.politologue.com/data/coronavirus/coronacsv.aspx?format=csv&t=pays 
+La source de données est un .csv récupérable à cette adresse : https://coronavirus.politologue.com/data/coronavirus/coronacsv.aspx?format=csv&t=pays ( ou en version finale dans le repository).
 Elle donne le nombre d'infections, de décès, de guérisons, ainsi que leur taux dans le monde pour les 30 derniers jours.
 
 J'ai d'abord retravaillé la BDD pour y rajouter 3 colonnes : TotalInfectionsParPays	| TotalDecesParPays |	TotalGuerisonsParPays. 
