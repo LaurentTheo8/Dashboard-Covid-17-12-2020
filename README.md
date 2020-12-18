@@ -11,6 +11,8 @@ Il est composé de deux pages :
 
 * **Compartif** : Page sur laquelle on pourra comparer les pays entre eux avec des graphiques Bar (nombre max de pays à comparer fixé à 20). Le filtre permet de sélectionner les pays qu'on veut comparer entre eux ( initalisé à 8 : États-Unis Inde France Russie Allemagne Belgique Chine Japon ).
 
+La certification de cours de Google Data Studio a été mise dans le repository.
+
 ## Source de données
 
 J'ai choisis une base de données sur le Covid-19, un sujet d'actualité et accessible. 
