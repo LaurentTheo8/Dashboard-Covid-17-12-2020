@@ -20,9 +20,6 @@ J'ai choisis une base de données sur le Covid-19, un sujet d'actualité et acce
 La source de données est un .csv récupérable à cette adresse : https://coronavirus.politologue.com/data/coronavirus/coronacsv.aspx?format=csv&t=pays ( ou en version finale dans le repository).
 Elle donne le nombre d'infections, de décès, de guérisons, ainsi que leur taux dans le monde pour les 30 derniers jours.
 
-J'ai d'abord retravaillé la BDD pour y rajouter 3 colonnes : TotalInfectionsParPays	| TotalDecesParPays |	TotalGuerisonsParPays. 
-Je ne pouvais pas choisir la dernière valeur en date sur Google Data Studio alors j'ai choisi de rajouter de la redondance pour me permettre d'avoir la valeur maximale de chaque pays sur chaque ligne.
-
 J'ai importé le fichier .csv avec l'onglet Ressource -> ajouter une source de données -> Importation de fichier.
 
 J'ai ensuite modifié le Type de la dimension Pays en "Pays".
