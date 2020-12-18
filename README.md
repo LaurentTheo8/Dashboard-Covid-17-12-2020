@@ -2,9 +2,16 @@
 
 Voici mon projet pour le cours de BI. 
 Il s'agit d'un dashboard présentant quelques chiffres sur le Covid-19 lors de ce dernier mois (dates: 17/11/2020 au 17/12/2020).
-Lien : https://datastudio.google.com/reporting/e3d4e5c7-4acc-4e73-8eab-eb98a54c220b
 
-# Source de données
+**Lien** : https://datastudio.google.com/reporting/e3d4e5c7-4acc-4e73-8eab-eb98a54c220b
+
+Il est composé de deux pages : 
+
+* **Global** : Page sur laquelle on retrouvera les informations globales, du monde, liées au Covid (nombre de décès, chiffres mondiaux, Map monde, évolution des chiffres lors du dernier mois ..). Il y a un filtre pour comparer les données sur certains pays en particulier (initalisé au monde entier).
+
+* **Compartif** : Page sur laquelle on pourra comparer les pays entre eux avec des graphiques Bar (nombre max de pays à comparer fixé à 20). Le filtre permet de sélectionner les pays qu'on veut comparer entre eux. (initalisé à 8 : États-Unis Inde France Russie Allemagne Belgique Chine Japon).
+
+## Source de données
 
 J'ai choisis une base de données sur le Covid-19, un sujet d'actualité et accessible. 
 
@@ -19,7 +26,7 @@ J'ai importé le fichier .csv avec l'onglet Ressource -> ajouter une source de d
 J'ai ensuite modifié le Type de la dimension Pays en "Pays".
 J'ai rajouté 3 champs : Max deces | Moyenne Taux deces | Moyenne Taux de Guerisons 
 
-# Ressources Pédagogiques Externes ou Informatives
+## Ressources Pédagogiques Externes ou Informatives
 
 * https://www.youtube.com/watch?v=4xmyomDMnnc pour le lancement, l'initialisation du projet. Pour avoir un exemple de création de dashboard.
 
