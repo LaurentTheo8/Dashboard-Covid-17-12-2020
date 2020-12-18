@@ -26,7 +26,6 @@ Je ne pouvais pas choisir la dernière valeur en date sur Google Data Studio alo
 J'ai importé le fichier .csv avec l'onglet Ressource -> ajouter une source de données -> Importation de fichier.
 
 J'ai ensuite modifié le Type de la dimension Pays en "Pays".
-J'ai rajouté le champs : Max deces
 
 ## Ressources Pédagogiques Externes ou Informatives
 
